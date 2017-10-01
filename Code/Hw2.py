@@ -3,7 +3,6 @@ from __future__ import division
 import numpy as np
 import os
 
-
 train_path = os.getcwd() + "/data/train/"
 test_path = os.getcwd() + "/data/test/"
 
@@ -117,7 +116,6 @@ while True:
     housing_trained = True
     for item in acq_doc_term_matrix_train:
         if sign(item) != ACQ_CONS:
-            print "inside Acq"
             item = [x * ACQ_CONS for x in item]
             theta = np.add(theta, item)
             theta_o = theta_o + ACQ_CONS
@@ -128,7 +126,6 @@ while True:
 
     for item in housing_doc_term_matrix_train:
         if sign(item) != HOUSING_CONS:
-            print "inside Housing"
             item = [x * HOUSING_CONS for x in item]
             theta = np.add(theta, item)
             theta_o = theta_o + HOUSING_CONS
@@ -139,9 +136,6 @@ while True:
     if acq_trained and housing_trained:
         break
 
-theta_sum = []
-for i in range(0, len(vocabulary)):
-    theta_sum.append(0)
 
 #averaging theta and theta_o
 theta = np.mean(thetas, axis = 0)
