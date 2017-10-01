@@ -1,9 +1,7 @@
+#Code for Pure Perceptron
 from __future__ import division
 import numpy as np
 import os
-import string
-import re
-import collections
 
 
 train_path = os.getcwd() + "/data/train/"
@@ -108,8 +106,7 @@ theta = []
 for i in range(0, len(vocabulary)):
     theta.append(0)
 
-
-while(True):
+while True:
     acq_trained = True
     housing_trained = True
     for item in acq_doc_term_matrix_train:
