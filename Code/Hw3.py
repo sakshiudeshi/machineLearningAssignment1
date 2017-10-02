@@ -121,6 +121,7 @@ for i in range(0, len(vocabulary)):
 
 def calc_loss():
     sum = 0;
+    n = len(all_doc_term_matrix_train)
     for X in all_doc_term_matrix_train:
         if X in acq_doc_term_matrix_train:
             Y = ACQ_CONS
@@ -128,7 +129,7 @@ def calc_loss():
             Y = HOUSING_CONS
         output = result(X)
         sum = sum + max((1 - output*Y), 0)
-    return sum
+    return sum/n
 
 while(True):
     X = random.choice(all_doc_term_matrix_train)
@@ -142,14 +143,16 @@ while(True):
         new_theta = np.add(theta, item)
         theta = new_theta
 
-    if(calc_loss() == 0):
+    loss = calc_loss()
+    print "Loss is " + str(loss)
+    if(loss == 0):
         break
 
 
 all_test_texts = get_files(test_path)
 acq_hits = test_texts('acq',ACQ_CONS, all_test_texts)
 housing_hits = test_texts('housing', HOUSING_CONS, all_test_texts)
-
+acq_tests = len(all_test_texts['acq'])
 housing_tests = len(all_test_texts['housing'])
 
 
