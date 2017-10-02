@@ -109,10 +109,7 @@ for item in housing_doc_term_matrix_train:
 
 print len(all_doc_term_matrix_train)
 
-#train using data
-train_dict = dict()
-train_dict[HOUSING_CONS] = housing_doc_term_matrix_train
-train_dict[ACQ_CONS] = acq_doc_term_matrix_train
+
 
 #initializing thetha vector
 theta_o = 0;

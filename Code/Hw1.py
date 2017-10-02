@@ -49,6 +49,7 @@ def sign(vector):
     else:
         return ACQ_CONS
 
+
 def get_files(path):
     all_texts = dict()
     for file_type in sorted(os.listdir(path)):
