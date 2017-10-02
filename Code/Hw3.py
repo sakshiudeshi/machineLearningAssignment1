@@ -149,7 +149,7 @@ while(True):
 all_test_texts = get_files(test_path)
 acq_hits = test_texts('acq',ACQ_CONS, all_test_texts)
 housing_hits = test_texts('housing', HOUSING_CONS, all_test_texts)
-acq_tests = len(all_test_texts['acq'])
+
 housing_tests = len(all_test_texts['housing'])
 
 

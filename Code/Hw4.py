@@ -78,9 +78,8 @@ def test_texts(type, CONS, all_test_texts, theta, theta_o):
     for item in doc_term_matrix_test:
         if(sign(item, theta, theta_o) == CONS):
             hits = hits + 1
-            print "HIT"
-        else:
-            print "MISS"
+
+    print type + " - Hits : " + str(hits) + " Misses : " + str(len(doc_term_matrix_test) - hits)
     return hits
 
 def calc_loss(all_doc_term_matrix_train, type_doc_matrix_train, theta, theta_o):
@@ -141,6 +140,7 @@ def get_classifier (type, all_train_texts):
 vocabulary = build_lexicon()
 all_text_test = get_files(test_path)
 all_text_train = get_files(train_path)
+
 
 for item in file_types:
     params = get_classifier(item, all_text_train)
