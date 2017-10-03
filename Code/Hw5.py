@@ -84,9 +84,8 @@ def test_texts(type, CONS, all_test_texts):
     for item in doc_term_matrix_test:
         if(sign(item) == CONS):
             hits = hits + 1
-            print "HIT"
-        else:
-            print "MISS"
+
+    print type + " - Hits : " + str(hits) + " Misses : " + str(len(doc_term_matrix_test) - hits)
     return hits
 
 
@@ -136,10 +135,13 @@ def calc_loss():
     return loss
 
 
+result_tracker = []
+
+
 min_loss = 1000020201
 min_theta = []
 min_theta_o = 0
-for x in range (1, 1000):
+for x in range (1, 3000):
     X = random.choice(all_doc_term_matrix_train)
     if X in acq_doc_term_matrix_train:
         Y = ACQ_CONS
@@ -169,4 +171,5 @@ housing_tests = len(all_test_texts['housing'])
 print "Gamma is " + str(gamma)
 print "Accuracy for ACQ " + str((acq_hits/acq_tests) * 100) + "%"
 print "Accuracy for Housing " + str((housing_hits/housing_tests) * 100) + "%"
-print "Total accuracy " + str(((acq_hits+housing_hits)/(acq_tests+ housing_tests)) * 100) + "%"
+tot_acc = ((acq_hits+housing_hits)/(acq_tests+ housing_tests)) * 100
+print "Total accuracy " + str(tot_acc) + "%"

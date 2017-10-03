@@ -82,9 +82,8 @@ def test_texts(type, CONS, all_test_texts):
     for item in doc_term_matrix_test:
         if(sign(item) == CONS):
             hits = hits + 1
-            print "HIT"
-        else:
-            print "MISS"
+
+    print type + " - Hits : " + str(hits) + " Misses : " + str(len(doc_term_matrix_test) - hits)
     return hits
 
 
