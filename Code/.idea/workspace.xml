@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hw1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hw1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hw1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="95" />
               <folding>
                 <element signature="e#26#57#0" expanded="true" />
               </folding>
@@ -38,8 +38,8 @@
       <file leaf-file-name="Hw3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hw3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="125" column="24" lean-forward="false" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+            <state relative-caret-position="-1600">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="e#31#62#0" expanded="true" />
               </folding>
@@ -50,8 +50,8 @@
       <file leaf-file-name="Hw4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hw4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="81" column="4" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="96" />
+            <state relative-caret-position="244">
+              <caret line="145" column="10" lean-forward="false" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
               <folding>
                 <element signature="e#36#67#0" expanded="true" />
               </folding>
@@ -62,10 +62,22 @@
       <file leaf-file-name="Hw5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hw5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
                 <element signature="e#51#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hw6.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hw6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding>
+                <element signature="e#28#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,9 +102,10 @@
         <option value="$PROJECT_DIR$/hw3.py" />
         <option value="$PROJECT_DIR$/Hw2.py" />
         <option value="$PROJECT_DIR$/Hw1.py" />
-        <option value="$PROJECT_DIR$/Hw4.py" />
         <option value="$PROJECT_DIR$/Hw3.py" />
+        <option value="$PROJECT_DIR$/Hw4.py" />
         <option value="$PROJECT_DIR$/Hw5.py" />
+        <option value="$PROJECT_DIR$/Hw6.py" />
       </list>
     </option>
   </component>
@@ -165,41 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Hw1">
-    <configuration name="Hw1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Perceptron" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hw1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Hw2" type="PythonConfigurationType" factoryName="Python" singleton="true" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Perceptron" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hw2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Hw6">
     <configuration name="Hw3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,6 +226,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Perceptron" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hw5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Hw6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Perceptron" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hw6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,20 +337,18 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Hw1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Hw2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Hw3" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Hw4" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Hw5" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Hw3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Hw4" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Hw5" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Hw6" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Hw1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Hw6" />
         <item index="1" class="java.lang.String" itemvalue="Python.Hw5" />
         <item index="2" class="java.lang.String" itemvalue="Python.Hw4" />
         <item index="3" class="java.lang.String" itemvalue="Python.Hw3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Hw2" />
       </list>
     </recent_temporary>
   </component>
@@ -396,6 +390,9 @@
     <history-entry file="Nosetests_in_Hw2 - 2017.10.01 at 20h 54m 07s.xml">
       <configuration name="Nosetests in Hw2" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_Hw6_py - 2017.10.04 at 15h 40m 22s.xml">
+      <configuration name="Nosetests in Hw6.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -405,8 +402,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37078652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4144819" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -508,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hw3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="125" column="24" lean-forward="false" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+        <state relative-caret-position="-1600">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="e#31#62#0" expanded="true" />
           </folding>
@@ -518,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hw4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="81" column="4" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="96" />
+        <state relative-caret-position="244">
+          <caret line="145" column="10" lean-forward="false" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
           <folding>
             <element signature="e#36#67#0" expanded="true" />
           </folding>
@@ -528,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hw5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
             <element signature="e#51#82#0" expanded="true" />
           </folding>
@@ -538,10 +535,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hw1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="95" />
           <folding>
             <element signature="e#26#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hw6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

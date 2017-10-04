@@ -144,6 +144,11 @@ all_text_train = get_files(train_path)
 
 for item in file_types:
     params = get_classifier(item, all_text_train)
+    print "In Train Set"
+    hits = test_texts(item, TYPE_CONS, all_text_train, params.theta, params.theta_o)
+    tests = len(all_text_train[item])
+    print "Accuracy for " + item + " " + str((hits / tests) * 100) + "%"
+    print "In Test Set"
     hits = test_texts(item, TYPE_CONS, all_text_test, params.theta, params.theta_o)
     tests = len(all_text_test[item])
     print "Accuracy for " + item + " " + str((hits/tests) * 100) + "%"

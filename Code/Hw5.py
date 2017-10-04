@@ -163,6 +163,22 @@ theta = min_theta
 theta_o = min_theta_o
 
 all_test_texts = get_files(test_path)
+
+print ""
+print "In Train Set"
+acq_hits = test_texts('acq',ACQ_CONS, all_train_texts)
+housing_hits = test_texts('housing', HOUSING_CONS, all_train_texts)
+acq_tests = len(all_train_texts['acq'])
+housing_tests = len(all_train_texts['housing'])
+
+print "Gamma is " + str(gamma)
+print "Accuracy for ACQ " + str((acq_hits/acq_tests) * 100) + "%"
+print "Accuracy for Housing " + str((housing_hits/housing_tests) * 100) + "%"
+tot_acc = ((acq_hits+housing_hits)/(acq_tests+ housing_tests)) * 100
+print "Total accuracy " + str(tot_acc) + "%"
+
+print ""
+print "In Test Set"
 acq_hits = test_texts('acq',ACQ_CONS, all_test_texts)
 housing_hits = test_texts('housing', HOUSING_CONS, all_test_texts)
 acq_tests = len(all_test_texts['acq'])
